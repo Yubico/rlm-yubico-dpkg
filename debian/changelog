@@ -2,4 +2,4 @@ rlm-yubico (0.5.1-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)
 
- -- Dain Nilsson <Dain Nilsson <dain@yubico.com>>  Fri, 15 Mar 2013 15:33:18 +0100
+ -- Dain Nilsson <dain@yubico.com>  Fri, 15 Mar 2013 15:33:18 +0100

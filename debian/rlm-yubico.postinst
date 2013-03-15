@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+# Fix permissions
+chown root:freerad /etc/yubico/rlm/*
+chmod 640 /etc/yubico/rlm/*
+chmod 660 /etc/yubico/rlm/ykmapping
+
+#DEBHELPER#
+
+exit 0
