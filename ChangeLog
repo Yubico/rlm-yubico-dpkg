@@ -1,0 +1,184 @@
+2013-03-15  Dain Nilsson <dain@yubico.com>
+
+	* NEWS: Updated NEWS.
+
+2013-03-15  Dain Nilsson <dain@yubico.com>
+
+	* Makefile, README, dictionary, rlm_yubico.pl, rlm_yubikey.pl,
+	ykrlm-config.cfg: Renamed rlm_yubikey -> rlm_yubico
+
+2013-03-15  Dain Nilsson <dain@yubico.com>
+
+	* NEWS: Updated NEWS for 0.5.1
+
+2013-03-15  Dain Nilsson <dain@yubico.com>
+
+	* Makefile: Added NEWS file to archive.
+
+2013-03-15  Dain Nilsson <dain@yubico.com>
+
+	* Makefile: Fix version parsing
+
+2013-03-15  Dain Nilsson <dain@yubico.com>
+
+	* NEWS: Updated NEWS.
+
+2013-03-15  Dain Nilsson <dain@yubico.com>
+
+	* Makefile, NEWS: Added make release
+
+2013-03-11  Dain Nilsson <dain@yubico.com>
+
+	* README: Updated README.
+
+2013-02-27  Dain Nilsson <dain@yubico.com>
+
+	* README: Added info aobut rlm_perl not supporting SIGHUP.
+
+2013-02-27  Dain Nilsson <dain@yubico.com>
+
+	* YKmap.pm, rlm_yubikey.pl: Made YKmap thread safe.
+
+2013-02-27  Dain Nilsson <dain@yubico.com>
+
+	* rlm_yubikey.pl, ykrlm-config.cfg: Added default client_id and API
+	key.
+
+2013-02-27  Dain Nilsson <dain@yubico.com>
+
+	* Makefile, YKmap.pm: Fixed auto-provisioning.
+
+2013-02-27  Dain Nilsson <dain@yubico.com>
+
+	* rlm_yubikey.pl: Actually check for $allow_auto_provisioning.
+
+2013-02-27  Dain Nilsson <dain@yubico.com>
+
+	* YKmap.pm: Fixed provisioning.
+
+2013-02-27  Dain Nilsson <dain@yubico.com>
+
+	* rlm_yubikey.pl: Fix YKmap calling.
+
+2013-02-27  Dain Nilsson <dain@yubico.com>
+
+	* YKmap.pm, rlm_yubikey.pl, ykrlm-config.cfg: Replaced
+	$allow_single_factor with $security_level.
+
+2013-02-27  Dain Nilsson <dain@yubico.com>
+
+	* README: Updated README.
+
+2013-02-27  Dain Nilsson <dain@yubico.com>
+
+	* YKmap.pm, rlm_yubikey.pl: Extracted mapping into YKMap.
+
+2013-02-26  Dain Nilsson <dain@yubico.com>
+
+	* Makefile: Fixed permissions.
+
+2013-02-26  Dain Nilsson <dain@yubico.com>
+
+	* ykrlm-config.cfg: Fixed verify URLs in comment.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* README: Updated README
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* Makefile, README, dictionary: Added custom dictionary.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* .gitignore: Added .gitignore
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* Makefile: Added Makefile
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* README: Rephrasing of README.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* ykmapping: Added initial ykmapping file.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* ykrlm-config.cfg: Added more descriptions to config file.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* README, rlm_yubikey.pl, yubikey.pl: Renamed yubikey.pl to
+	rlm_yubikey.pl
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: Added copyright header.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: Removed provisioning in users file.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* COPYING: Added COPYING.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* README: Added README.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* ykrlm-config.cfg: Added default configuration file.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: More verbose logging.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: When allowed, users with no key can log in.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: Added lookups of username from YubiKey.
+
+2013-02-25  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: Cleaned up some code.
+
+2013-02-22  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: Added file-based ykmapping.
+
+2013-02-19  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: Added lookup_username login without a username.
+
+2013-02-18  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: Added exception handling to decrypt.
+
+2013-02-17  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: Added encryption of password for Access-Challenge.
+
+2013-02-15  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: Stub for supporting Access-Challenge
+
+2013-02-15  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: Added crude OTP validation.
+
+2013-02-15  Dain Nilsson <dain@yubico.com>
+
+	* yubikey.pl: Added config file
+
+2013-02-15  Dain Nilsson <dain@yubico.com>
+
+	* Initial import
+
