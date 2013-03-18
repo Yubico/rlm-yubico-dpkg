@@ -1,3 +1,10 @@
+rlm-yubico (0.5.2-1) unstable; urgency=low
+
+  * New upstream version.
+    - Added YKmap.pm to Makefile (which was missing).
+
+ -- Dain Nilsson <dain@yubico.com>  Mon, 18 Mar 2013 15:35:58 +0100
+
 rlm-yubico (0.5.1-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)
