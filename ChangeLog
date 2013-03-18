@@ -1,3 +1,11 @@
+2013-03-18  Dain Nilsson <dain@yubico.com>
+
+	* Makefile, NEWS: Added missing file to Makefile.
+
+2013-03-15  Dain Nilsson <dain@yubico.com>
+
+	* Makefile: Only list releases of PACKAGE.
+
 2013-03-15  Dain Nilsson <dain@yubico.com>
 
 	* NEWS: Updated NEWS.
