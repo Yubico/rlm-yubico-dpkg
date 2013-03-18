@@ -1,3 +1,11 @@
+rlm-yubico (0.5.3-1) unstable; urgency=low
+
+  * New upstream version.
+    - Install files into /usr/share/rlm-yubico instead of
+    /usr/share/rlm_yubico.
+
+ -- Dain Nilsson <dain@yubico.com>  Mon, 18 Mar 2013 16:07:15 +0100
+
 rlm-yubico (0.5.2-1) unstable; urgency=low
 
   * New upstream version.
