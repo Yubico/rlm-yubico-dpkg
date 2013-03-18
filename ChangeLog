@@ -1,5 +1,9 @@
 2013-03-18  Dain Nilsson <dain@yubico.com>
 
+	* Makefile, NEWS: Install files into /usr/share/rlm-yubico
+
+2013-03-18  Dain Nilsson <dain@yubico.com>
+
 	* Makefile, NEWS: Added missing file to Makefile.
 
 2013-03-15  Dain Nilsson <dain@yubico.com>
